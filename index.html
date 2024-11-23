@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VW Bali Tour</title>
+    <link rel="stylesheet" href="style.css">
+        <!-- Menggunakan font Playfair Display untuk heading dan Montserrat untuk konten -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#trips">Pilihan Trip</a></li>
+                <li><a href="#destinations">Destinasi</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda/Tentang Kami -->
+    <section id="home" class="section-home">
+        <h1>Selamat datang di VW Bali Tour!</h1>
+        <p>Nikmati petualangan tak terlupakan dengan pengalaman unik berkeliling Bali menggunakan mobil VW klasik. Temukan keindahan Bali dengan cara yang berbeda, nyaman, dan penuh gaya! Baik Anda ingin menjelajahi pantai eksotis atau mengunjungi tempat-tempat budaya yang menakjubkan, kami siap mengantarkan Anda ke destinasi terbaik Bali.</p>
+    </section>
+
+    <section id="about" class="section-about">
+      <img src="images/VW_Safari.jpg" alt="Tentang Kami">
+        <h2>Tentang Kami</h2>
+        <p>VW Safari Bali Tour  adalah Paket Tur Sehari Penuh di Bali di pulau Bali untuk menikmati Perjalanan Menakjubkan di Bali menggunakan Mobil Safari Volkswagen Klasik untuk melihat tujuan wisata yang indah. Paket Tur Safari Volkswagen Bali yang kami tawarkan kepada Anda adalah yang terbaik dari paket lainnya, kami memilih dari tujuan wisata terbaik dan memasukkan dalam satu paket untuk perjalanan sehari dan pastinya benar-benar menjamin kepuasan dan harga yang wajar. Menikmati pemandangan dari mobil Vokswagen sementara angin meniup rambut Anda dan merasakan sensasinya. Layanan Pengemudi Tur Bali profesional kami dengan ramah memandu Anda untuk mengunjungi panorama indah tempat wisata dan tujuan wisata lainnya dengan melakukan yang terbaik untuk kenyamanan dan kesenangan Anda selama Tur Safari VW Bali. Di bawah ini adalah paket Tur Safari VW Bali yang kami tawarkan kepada Anda untuk menjelajahi keindahan, yang tersembunyi, dan mengunjungi pemandangan panorama yang menakjubkan di pulau Bali.</p>
+    </section>
+
+    <!-- Pilihan Trip -->
+    <section id="trips" class="section-trips">
+        <h2>Pilihan Trip</h2>
+        <div class="trip-container">
+            <div class="trip-item">
+                <img src="images/pk short.jpeg" alt="Short Day Trip">
+                <h3>Short Day Trip</h3>
+                <p class="price">Harga: Rp 800.000</p>
+                <form action="#cart">
+                    <label for="quantity-bali">Jumlah Peserta:</label>
+                    <input type="number" id="h" placeholder="Jumlah orang" required>
+                    <label for="quantity-bali">Warna VW:</label>
+                    <input type="text" id="h" placeholder="Warna VW" required>
+                    <label for="quantity-bali">Jumlah VW:</label>
+                    <input type="number" id="h" placeholder="Jumlah VW" required>
+                    <label for="quantity-bali">Pilihan Destinasi:</label>
+                    <input type="text" id="h" placeholder="Destinasi" required>
+                    <label for="quantity-bali">Tanggal Keberangkatan:</label>
+                    <input type="date" id="h"placeholder="Untuk tanggal"required>
+                    <br><br><br>
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+            </div>
+            <div class="trip-item">
+              <img src="images/pk half.jpeg" alt="Half Day Trip">
+              <h3>Half Day Trip</h3>
+              <p class="price">Harga: Rp 1.000.000</p>
+                <form action="#cart">
+                  <label for="quantity-bali">Jumlah Peserta:</label>
+                  <input type="number" id="quantity-bali" name="quantity-bali" min="1" placeholder="Jumlah orang" required>
+                  <label for="quantity-bali">Warna VW:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Warna VW" required>
+                  <label for="quantity-bali">Jumlah VW:</label>
+                  <input type="number" id="h" name="quantity-bali" min="1" placeholder="Jumlah VW" required>
+                  <label for="quantity-bali">Pilihan Destinasi:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Destinasi" required>
+                  <label for="quantity-bali">Tanggal Keberangkatan:</label>
+                  <input type="date" id="h" name="quantity-bali" min="1" placeholder="Untuk tanggal"required>
+                  <br><br><br>
+                  <button type="submit">Pesan Sekarang</button>
+              </form>
+          </div>
+            <div class="trip-item">
+                <img src="images/pk full.jpeg" alt="Full Day Trip">
+                <h3>Full Day Trip</h3>
+                <p class="price">Harga: Rp 1.500.000</p>
+                <form action="#cart">
+                  <label for="quantity-bali">Jumlah Peserta:</label>
+                  <input type="number" id="quantity-bali" name="quantity-bali" min="1" placeholder="Jumlah orang" required>
+                  <label for="quantity-bali">Warna VW:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Warna VW" required>
+                  <label for="quantity-bali">Jumlah VW:</label>
+                  <input type="number" id="h" name="quantity-bali" min="1" placeholder="Jumlah VW" required>
+                  <label for="quantity-bali">Pilihan Destinasi:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Destinasi" required>
+                  <label for="quantity-bali">Tanggal Keberangkatan:</label>
+                  <input type="date" id="h" name="quantity-bali" min="1" placeholder="Untuk tanggal"required>
+                  <br><br><br>
+                  <button type="submit">Pesan Sekarang</button>
+                </form>
+            </div>
+            <div class="trip-item">
+                <img src="images/id-11134207-7r98s-lw2adefbd4zx70.jpeg" alt="Tour Group">
+                <h3>Tour Group</h3>
+                <p class="price">Harga: Rp 800.000/vw (min 10)</p>
+    
+                <form action="#cart">
+                  <label for="quantity-bali">Jumlah Orang:</label>
+                  <input type="number" id="quantity-bali" name="quantity-bali" min="1" placeholder="Jumlah orang" required>
+                  <label for="quantity-bali">Warna VW:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Warna VW" required>
+                  <label for="quantity-bali">Jumlah VW:</label>
+                  <input type="number" id="h" name="quantity-bali" min="1" placeholder="Jumlah VW" required>
+                  <label for="quantity-bali">Pilihan Destinasi:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Destinasi" required>
+                  <label for="quantity-bali">Tanggal Keberangkatan:</label>
+                  <input type="date" id="h" name="quantity-bali" min="1" placeholder="Untuk tanggal"required>
+                  <br><br><br>
+                  <button type="submit">Pesan Sekarang</button>
+                </form>
+            </div>
+            <div class="trip-item">
+                <img src="images/paket wedding.jfif" alt="Wedding Photoshoot">
+                <h3>Wedding Photoshoot</h3>
+                <p class="price">Harga: Rp 1.500.000</p>
+                <form action="#cart">
+                  <label for="quantity-bali">Warna VW:</label>
+                  <input type="number" id="h" name="quantity-bali" min="1" placeholder="Warna VW" required>
+                  <label for="quantity-bali">Pilihan Destinasi:</label>
+                  <input type="text" id="h" name="quantity-bali" min="1" placeholder="Destinasi" required>
+                  <label for="quantity-bali">Tanggal Keberangkatan:</label>
+                  <input type="date" id="h" name="quantity-bali" min="1" placeholder="Untuk tanggal"required>
+                  <br><br><br>
+                  <button type="submit">Pesan Sekarang</button>  
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinasi -->
+    <section id="destinations" class="section-destinations">
+        <h2>Destinasi Pilihan</h2>
+        <div class="destination-container">
+            <div class="destination-item">
+                <img src="images/004128800_1630716799-AP21246146051539.webp" alt="Destinasi 1">
+                <h3>Monkey Forest</h3>
+                <p> Monkey Forest Ubud atau disebut juga Mandala Suci Wenara Wana merupakan sebuah kawasan cagar alam sekaligus komplek candi yang terletak di Ubud, Bali. </p>
+                <p>Biaya tiket masuk Monkey Forest Ubud di Bali tergantung pada status pengunjung, yaitu: Rp 20.000 - Rp 100.000
+            </div>
+            <div class="destination-item">
+                <img src="images/8da1e845-ee5c-4ad3-b127-85667de6f758_169.jpg" alt="Destinasi 2">
+                <h3>Gunung Kawi</h3>
+                <p>Gunung Kawi Tampaksiring Terletak di Banjar Penaka, Kecamatan Tampaksiring, Kabupaten Gianyar. Gunung Kawi digunakan untuk berbagai kepentingan baik untuk kegiatan yang bersifat religius magis, tempat meditasi, pengairan sawah, dan sebagai objek wisata yang menarik. Sebagai cagar budaya yang memiliki nilai penting bagi masyarakat, situs ini sudah ditetapkan sebagai cagar budaya dan juga dilestarikan oleh masyarakat dan pemerintah. </p>
+                <p>Harga tiket masuk ke Pura Gunung Kawi mulai dari Rp 15.000 - Rp 30.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/GWK1_Festival-Park.jpg" alt="Destinasi 3">
+                <h3>Garuda Wisnu Kencana</h3>
+                <p>Taman Budaya Garuda Wisnu Kencana, atau kerap disebut dengan GWK, adalah sebuah taman wisata budaya di bagian selatan pulau Bali.</p>
+                <p>Harga Tiket Masuk GWK mulai dari Rp 50.000 - Rp 120.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/desa-penglipuran-bali.jpg" alt="Destinasi 2">
+                <h3>Desa Penglipuran</h3>
+                <p>Di desa Pengliperan, anda masih bisa melihat suasana adat Bali yang begitu kental. Anda bisa melihat tampakan rumah-rumah penduduk yang bentuknya hampir sama. Bahkan kemiripannya tersebut dapat dilihat pada bagian atap, dinding, hingga pintu rumah. keunikan dari Desa penglipuran bisa menjadi wisata menarik yang dapat anda kunjungi saat liburan. </p>
+                <p>Harga tiket masuk Desa Penglipuran mulai dari Rp 25.000 - Rp 50.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/danau-beratan.jpg" alt="Destinasi 2">
+                <h3>Danau Beratan</h3>
+                <p>Danau Bratan merupakan wisata danau yang berada di kawasan Bedugul, Desa Candikuning, Kec. Baturiti, Tabanan, Bali. Karena berada di ketinggian 1.240 mdpl, tak heran jika suhu udara yang ada di sekitar danau sangat sejuk dan segar. Danau terluas kedua di bali ini memiliki fungsi utama sebagai sumber irigasi di daerah-daerah yang terletak di bagian tengah Bali. </p>
+                <p>Harga tiket masuk mulai dari Rp 40.000 - Rp 50.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/pantai-melasti.jpg" alt="Destinasi 2">
+                <h3>Pantai Melasti</h3>
+                <p>Pantai yang berada di kawasan Bali Selatan ini memiliki daya tarik yang cukup unik, sepanjang perjalanan menuju lokasi anda harus melalui jalanan yang berliku dan turunan yang berada di atas tebing-tebing kapur yang kokoh berdiri tinggi. Keeksotisan dari tebing kapur ini lah yang membuatnya menjadi tempat yang sering dijadikan sebagai lokasi pemotretan untuk pre wedding. </p>
+                <p>Harga tiket masuk Pantai Melasti mulai dari Rp 3.000 - Rp 15.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/pantai-lovina-bali.jpg" alt="Destinasi 2">
+                <h3>Pantai Lovina</h3>
+                <p>Pantai Lovina merupakan salah satu pantai yang berada di kawasan Bali Utara, tepatnya dekat dengan Kota Singaraja. Disini anda bisa melihat kumpulan lumba-lumba yang berenang sambil meloncat-loncat karena pantai Lovina ini memang habitat asli dari para lumba-lumba. </p>
+                <p>Tiket masuk ke Pantai Lovina di Bali tidak dikenakan biaya.Namun, untuk aktivitas seperti snorkeling, scuba diving, atau tur menonton lumba-lumba, wisatawan akan dikenakan biaya Rp 100.000</p>
+            </div>
+            <div class="destination-item">
+                <img src="images/pantai-uluwatu-bali.jpg" alt="Destinasi 2">
+                <h3>Pantai Uluwatu</h3>
+                <p>Pantai yang dikenal dengan nama lain Blue Point ini mengharuskan pengunjung untuk menuruni beberapa anak tangga yang sempit untuk bisa sampai ke Pantai Uluwatu. </p>
+                <p>Untuk bisa menikmati keindahan pantai, anda hanya perlu membayar biaya parkir sebesar Rp 2.000 - Rp 5.000.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">
+            <h4>Cara pesan gimana kak?</h4>
+            <p>Kamu bisa memilih paket trip terlebih dahulu, kemudian pilih destinasi, warna vw da jumlah vw, jangan lupa isi jadwal keberangkatann ya!</p>
+        </div>
+        <div class="faq-item">
+            <h4>Fasilitas apa saja yang didapat?</h4>
+            <p>Sopir, BBM, Penjemputan di Hotel/Resto sekitaran Bali</p>
+        </div>
+        <div class="faq-item">
+          <h4> Muat berapa orang dalam satu vw?</h4>
+          <p>Maksimal 3 - 4 orang dewasa</p>
+      </div>
+      <div class="faq-item">
+        <h4>Apakah wajib DP?</h4>
+        <p>Wajib DP 50% dan pelunasan bisa h-1 sebelum keberangkatan, jika tidak DP maaf pesanan tidak bisa kami proses</p>
+    </div>
+    <div class="faq-item">
+      <h4>Apakah harga sudah termasuk tiket wisata?</h4>
+      <p>Belum kak, karena ada beberapa destinasi yang menggunakan biaya tambahan tiket masuk</p>
+  </div>
+  <div class="faq-item">
+    <h4>Apakah berisi AC kak?</h4>
+    <p>VW Safari menggunakan angin alam ya kak, yaitu dengan atap bisa terbuka jika hujan bisa tutup lagi :)</p>
+</div>
+<div class="faq-item">
+  <h4>Kalau pesan lebih dari 5 VW apakah bisa?</h4>
+  <p>Bisa banget dong! Jadinya tour group ya, bisa request warna juga akan tetapi bookingnya minimal h-2 yah!</p>
+</div>
+    </section>
+
+    <!-- Kontak Kami -->
+    <section id="contact" class="section-contact">
+      <div class="contact-container">
+          <h2>Kontak Kami</h2>
+          <p>Jika ada pertanyaan atau informasi lebih lanjut, silakan hubungi kami melalui media di bawah ini:</p>
+          
+          <div class="contact-info">
+              <div class="contact-item">
+                  <h3>Instagram</h3>
+                  <p>@vw.balitour</p>
+              </div>
+              
+              <div class="contact-item">
+                  <h3>Telp</h3>
+                  <p>+62 815 5837 9369</p>
+              </div>
+          </div>
+          
+          <div class="social-media">
+              <p>Ikuti kami di media sosial untuk informasi terbaru:</p>
+              <div class="social-icon">
+                  <a href="https://www.instagram.com/vw.balitour?igsh=MXEzbjhtcjd1NmhvMQ==" target="_blank" class="social-icon">
+                      <img src="images/icon ig.png" alt="Instagram">
+                  </a>
+                  <a href="https://wa.me/message/3H5N34UUAL5NG1" target="_blank" class="social-icon">
+                    <img src="images/whatsapp.png" alt="Whatsapp">
+                  <!-- Tambahkan ikon media sosial lainnya jika ada -->
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Vw Bali Tour. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
